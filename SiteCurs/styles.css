@@ -41,7 +41,7 @@ div.descriptionBox{
 
 .image2>img{
   height: 205px;
-  width: 409px;
+  width: 396px;
   
 }
 
@@ -49,33 +49,52 @@ div.descriptionBox{
   width: 130px;
   height: 130px;
 }
-.thirdRow{border: 1.5px solid black;
+.thirdRow{/*border: 1.5px solid black;*/
   width: auto;
+  margin-top: 10px;
 
+}
+
+.container{
+  /*border: 1.5px solid black;*/
+  display: inline-block;
+  overflow: auto;
 }
 div.smallImageBorder{
   display: inline-block;
-  border: 1.5px solid black;
+  border: 2.5px solid rgb(146, 145, 145);
   width: 130px;
   height: 130px;
   padding: 0%;
 }
 
 div.textBox{
-  border: 1.5px solid black;
+  /*border: 1.5px solid black;*/
   display: inline-block;
   vertical-align: top;
-  width: 300px;
+  width: 297px;
   height: 140px;
+  background-color: #d5dfe6;
  
 }
 
+div.textBox>p.title{
+  color: rgb(34, 97, 233);
+}
+
+div.textBox>p{
+  font-family:'Times New Roman', Times, serif;
+}
+
 div.textBox>a{
-  border: 1.5px solid black;
-  border-radius: 15%;
+  font-family:'Times New Roman', Times, serif;
+  /*border: 1.5px solid black;*/
+  border-radius: 13%;
   background-color: green;
-  padding: 5px 20px;
-  font-size: 20px;
-  margin-left: 60%;
+  padding: 7px 20px;
+  font-size: 15px;
+  margin-left: 65%;
   width: 200px;
+  text-decoration: none;
+  color: white;
 }
